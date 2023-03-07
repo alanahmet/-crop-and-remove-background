@@ -1,4 +1,4 @@
-# Crop and emove background with [yolov7](https://github.com/WongKinYiu/yolov7) and [rembg](https://github.com/danielgatis/rembg)
+# Crop and remove background with [yolov7](https://github.com/WongKinYiu/yolov7) and [rembg](https://github.com/danielgatis/rembg)
 
 Paste python and requirements files in yolov7 folders then install requirements.
 
