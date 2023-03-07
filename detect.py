@@ -143,7 +143,7 @@ def detect(opt, save_img=False):
                         print('detected object name is ', object_name)
                         #original_img = im0
                         cropped_img = im0[y1:y2, x1:x2]
-                        resized_image = cv2.resize(cropped_img, (int(cropped_img.shape[1]*10), int(cropped_img.shape[0]*10)), interpolation = cv2.INTER_AREA)
+                        resized_image = cv2.resize(cropped_img, (int(cropped_img.shape[1]*5), int(cropped_img.shape[0]*5)), interpolation = cv2.INTER_AREA)
                         print(save_dir)
                         #create folder if not exists
                         cropped_img_path = "runs/cropped/"
