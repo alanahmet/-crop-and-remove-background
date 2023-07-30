@@ -8,6 +8,9 @@ import os
 
 
 if __name__ == '__main__':
+    """
+    Main function to run object detection and background removal on images.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default='yolov7.pt', help='model.pt path(s)')
     parser.add_argument('--source', type=str, default='inference/images', help='source')  # file/folder, 0 for webcam
